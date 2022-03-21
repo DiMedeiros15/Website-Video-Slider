@@ -1,0 +1,89 @@
+<!-- Auto Diego medeiros -->
+<!-- Email : dimedeiros15@gmail.com -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Video Slider Website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="bannerVideo" id="slideShow">
+        <video src="video/tokyo.mp4" autoplay muted loop class="active"></video>
+        <video src="video/Paris.mp4" autoplay muted loop></video>
+        <video src="video/egito.mp4" autoplay muted loop></video>
+        <video src="video/maldives.mp4" autoplay muted loop></video>
+      </div>
+
+      <div class="container">
+        <header id="navbar">
+          <a href="#" class="logo">Mundo - World </a>
+          <ul>
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#">DESTINO</a></li>
+            <li><a href="#">SOBRE</a></li>
+            <li><a href="#">CONTATO</a></li>
+          </ul>
+          <span class="menu" onclick="toggleMenu();">
+
+          </span>
+        </header>
+        <div class="conteudo">
+          <div class="bannerText" id="slideShowText">
+            <div class="active">
+              <h2>Tokyo</h2>
+              <p>
+                Tóquio, a movimentada capital do Japão, combina o estilo ultramoderno com o tradicional, desde arranha-céus iluminados por neon a templos históricos. O opulento santuário xintoísta Meiji é conhecido por seu altíssimo portão e pelas florestas circundantes. O Palácio Imperial fica localizado em meio a jardins públicos.
+              </p>
+            </div>
+            <div>
+              <h2>Paris</h2>
+              <p>
+                Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda, gastronomia e cultura. Sua paisagem urbana do século XIX é cortada por avenidas largas e pelo rio Sena. A cidade é conhecida por monumentos como a Torre Eiffel e a Catedral de Notre-Dame, uma construção gótica do século XII, sendo famosa também pela cultura dos cafés e por lojas de estilistas famosos na Rue du Faubourg Saint-Honoré
+              </p>
+            </div>
+            <div>
+              <h2>Egito</h2>
+              <p>
+                O Egito, um país que liga o nordeste da África ao Oriente Médio, remonta ao tempo dos faraós. Monumentos construídos milênios atrás ficam localizados ao longo do fértil vale do rio Nilo, como as colossais Pirâmides de Gizé e a Esfinge, além do Templo de Karnak (repleto de hieróglifos) e das tumbas do Vale dos Reis, ambos em Luxor.
+              </p>
+            </div>
+            <div>
+              <h2>Maldives</h2>
+              <p>
+                As Maldivas são uma nação tropical no Oceano Índico composta por 26 atóis em formato de anel, que são formados por mais de 1.000 ilhas de coral. O país é conhecido pelas praias, pelas lagoas azuis e pelos extensos recifes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <ul class="sci">
+          <li>
+            <a href="#"><img src="img/facebook.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/instagram.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/twitter.png" alt="" /></a>
+          </li>
+        </ul>
+
+  <!-- JavaScript -->
+        <ul class="controle">
+          <li onclick="prevSlide();prevSlideText();">
+            <img src="img/left.png" alt="" />
+          </li>
+          <li onclick="nextSlide();nextSlideText();">
+            <img src="img/right.png" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
