@@ -255,7 +255,7 @@ section .bannerVideo video.active {
         height: 50px;
         display: initial;
         z-index: 10000;
-        background: #fff url(./img/menu.png);
+        background: #fff url(/img/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -263,7 +263,7 @@ section .bannerVideo video.active {
 
     }
     .menu.active {
-        background: #fff url(./img/close.png);
+        background: #fff url(/img/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
