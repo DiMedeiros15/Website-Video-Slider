@@ -263,7 +263,7 @@ section .bannerVideo video.active {
 
     }
     .menu.active {
-        background: #fff url(/img/close.png);
+        background: #fff url(img/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
